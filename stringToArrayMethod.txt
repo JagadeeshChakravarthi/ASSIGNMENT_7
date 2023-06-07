@@ -1,0 +1,14 @@
+5. What string method can be used to convert string into array ?
+
+Ans:
+split() method: This method splits a string into an array of substrings. 
+The split() method returns the new array. 
+The split() method does not change the original string. 
+If (" ") is used as separator, the string is split between words.
+
+proof:
+
+let string = "This is a string";
+let array = string.split(" ");
+
+console.log(array); // ["This", "is", "a", "string"]
